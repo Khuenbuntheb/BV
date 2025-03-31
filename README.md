@@ -13,12 +13,20 @@
         }
         table {
             width: 100%;
-            border-collapse: collapse;
+            border-collapse: separate;
+            text-indent: initial;
+            border-spacing: 2px;
         }
         th, td {
             border: 3px solid blue;
             padding: 5px;
             text-align: center;
+        }
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            unicode-bidi: isolate;
+            border-color: inherit;
         }
     </style>
 </head>
@@ -43,6 +51,7 @@
             <th>Associate, Bachelor</th>
             <th>Master, PhD</th>
         </tr>
+        <tbody>
         <tr>
             <td>Computer Science (Offering)</td>
             <td>AA and BA</td>
@@ -58,6 +67,7 @@
             <td>BA</td>
             <td>MS</td>
         </tr>
+        </tbody>
     </table>
     <h2 style="color:white; background-color:darkblue">College of Science and Technology Computer Labs</h2>
     <img src="graphic.jpg" style="width: 490px; height:350px;">
@@ -71,6 +81,7 @@
             <th>Network Lab</th>
             <th>IT-Center Lab</th>
         </tr>
+        <tbody>
         <tr>
             <td>Graphic Design</td>
             <td>Graphic Design</td>
@@ -89,6 +100,7 @@
             <td>Network Security</td>
             <td>Database Development</td>
         </tr>
+        </tbody>
     </table>
 </body>
 <footer>
