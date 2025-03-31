@@ -12,7 +12,7 @@
             border: 4px solid darkblue;
         }
         table, th, td {
-            border: 1px solid blue;
+            border: 3px solid blue;
             border-collapse: collapse;
             padding: 3px;
             text-align: center;
