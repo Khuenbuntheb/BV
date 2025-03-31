@@ -11,21 +11,36 @@
         img {
             border: 4px solid darkblue;
         }
+
         table {
             width: 100%;
-            border-collapse: collapse;
-            border: 4px solid blue; /* Adds bold border to entire table */
+            border-collapse: collapse;  /* Ensures borders collapse into one */
+            border: 4px solid blue; /* Adds bold border around the whole table */
         }
+
         th, td {
-            border: 4px solid blue; /* Adds bold border to all table cells */
-            padding: 10px; /* Adds padding for better readability */
+            border: 4px solid blue; /* Adds bold borders to each cell */
+            padding: 10px;
             text-align: center;
         }
+
         tbody {
             display: table-row-group;
             vertical-align: middle;
             unicode-bidi: isolate;
             border-color: inherit;
+        }
+
+        /* Optional: For styling the header row differently */
+        th {
+            background-color: darkblue;
+            color: white;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px;
         }
     </style>
 </head>
