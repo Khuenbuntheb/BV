@@ -14,10 +14,11 @@
         table {
             width: 100%;
             border-collapse: collapse;
+            border: 4px solid blue; /* Adds bold border to entire table */
         }
         th, td {
-            border: 3px solid blue;
-            padding: 5px;
+            border: 4px solid blue; /* Adds bold border to all table cells */
+            padding: 10px; /* Adds padding for better readability */
             text-align: center;
         }
         tbody {
