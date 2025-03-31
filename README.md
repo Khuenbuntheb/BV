@@ -11,10 +11,13 @@
         img {
             border: 4px solid darkblue;
         }
-        table, th, td {
-            border: 3px solid blue;
+        table {
+            width: 100%;
             border-collapse: collapse;
-            padding: 3px;
+        }
+        th, td {
+            border: 3px solid blue;
+            padding: 5px;
             text-align: center;
         }
     </style>
@@ -34,7 +37,7 @@
         Welcome to the College of Science and Technology at The University of Cambodia. If you wish to pursue an AA or BA degree in our study programs, please register now or visit our campus. Established in 2013 alongside The University of Cambodia, the College has evolved with the rise of science and technology in the 21st century. We inspire students to value creativity and innovation in the IT world. Our undergraduate and graduate programs include Computer Science, Information Technology, and Electronics & Telecommunication, preparing students for careers in these fields.
     </p>
     <h2 style="color:white; background-color:darkblue">Majors Offered in College of Science and Technology</h2>
-    <table style="width:100%">
+    <table>
         <tr>
             <th>Majors</th>
             <th>Associate, Bachelor</th>
@@ -60,7 +63,7 @@
     <img src="graphic.jpg" style="width: 490px; height:350px;">
     <img src="IT-center.jpg" style="width: 490px; height:350px;">
     <img src="Network.jpg" style="width: 490px; height:350px;">
-    <table style="width:100%">
+    <table>
         <caption>Computer Labs at The University of Cambodia</caption>
         <tr>
             <th>Multimedia Lab</th>
